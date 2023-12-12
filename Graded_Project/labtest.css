@@ -1,0 +1,62 @@
+body{
+    margin: 0%;
+    background-color: rgba(255, 255, 255, 0.548);
+}
+#maincontainer
+{
+    position: relative;
+    width: 80%;
+    min-width: 750px;
+    height: 500px;
+    overflow-y: auto;
+    margin-top: 100px;
+    margin-left: 100px;
+    padding-left: 50px;
+    
+}
+img
+{
+    position: sticky;
+    float: right;
+    height: 500px;
+    top: 0%;
+    bottom: 0%;
+    width: 50%;
+    min-width: 0%;
+    z-index: -1;
+}
+div
+{ 
+    border: none;
+    box-shadow: 5px 5px 5px 10px grey; 
+}
+
+input
+{
+    width: 200px; 
+    min-width: 100px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px  solid red   ;
+    padding: 10px;
+}
+#reset
+{
+    margin-top: 20px;
+    padding: 5px 8px;
+    position: relative;
+    margin-left: 40%;
+    background: blueviolet;
+    border-radius: 5px ;
+}
+#submit{
+    border-radius: 5px ;
+   margin-top: 20px;
+    padding: 5px 6px;
+    margin-left: 10px;
+    background: blueviolet;
+
+}
+
+
+
